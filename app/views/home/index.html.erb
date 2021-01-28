@@ -1,0 +1,27 @@
+
+<div class="container">
+	<div id="title">
+		
+		<center>
+			
+			
+			<b><header><h1 style="background-color:powderblue;"><marquee behavior="scroll" direction="left"><i>HR Management System</i></marquee>
+ </h1></header></b>
+		
+		</center>
+	</div>
+	
+	<center>
+		<div id="links">
+			<%= link_to "Employee Salary", employee_salaries_path(), class: "button" %>
+			<%= link_to "High Paid", high_paid_index_path(), class: "button" %>
+			<%= link_to "Low Performers", low_performance_high_salaries_path(), class: "button" %>
+			<%= link_to "High Performers", high_performance_high_leave_index_path(), class: "button" %>
+			<%=  link_to "Admin", rails_admin_path(),  class: "button" %> 
+			<br>
+			<br>
+			<img src="https://www.villanovau.com/wp-content/uploads/2019/01/HR-Business-Partner-HR-Manager-compressor.jpg?w=702&h=375&crop=1" class="img-thumbnail" alt="..." width="530" height="524">
+
+		</div>
+	</center>
+</div>
